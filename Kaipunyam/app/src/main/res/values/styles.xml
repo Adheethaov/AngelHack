@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/headland_one</item>
+        <item name="fontFamily">@font/headland_one</item>
+    </style>
+
+
+    <style name="Widget.KaiPunyam.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/TextAppearance.KaiPunyam.TextInputLayout.HintText
+        </item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="TextAppearance.KaiPunyam.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Widget.KaiPunyam.Button" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="backgroundTint">?attr/colorPrimaryDark</item>
+        <item name="android:stateListAnimator" tools:ignore="NewApi">
+            @animator/shr_next_button_state_list_anim
+        </item>
+    </style>
+
+    <style name="TextAppearance.KaiPunyam.Title" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/tagsDrawerMenu"
+            android:icon="@drawable/ic_history_menu"
+            android:title="Past Orders" />
+
+
+        <item
+            android:id="@+id/settingsDrawerMenu"
+            android:icon="@drawable/ic_settings_menu"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/logoutDrawerMenu"
+            android:icon="@drawable/ic_logout_menu"
+            android:title="Logout" />
+
+    </group>
+    <group>
+        <item
+            android:id="@+id/helpAndFeedBackDrawerMenu"
+            android:title="Help &amp; FeedBack " />
+        <item
+            android:id="@+id/aboutDrawerMenu"
+            android:title="About" />
+
+
+    </group>
+</menu>
